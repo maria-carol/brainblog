@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #E4CFF7;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+p{
+	color: #552E8A;
+	text-align: justify;
+}
+p span{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+h2 span{
+	font-family: 'Lobster', cursive;
+	color: #A653C2;
+	font-size: 50px;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	color: #A653C2;
+	font-size: 40px;
+}
+a:hover{
+	font-weight: bold;
+	color: #A653C2;
+	text-decoration: underline;
+}
+li{
+	font-family: 'Lobster', cursive;
+	color: #552E8A;
+	font-size: 25px;
+}
+#area_cabecalho{
+	background-color: #A653C2;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+#area_logo img{
+	width: 100px;
+	margin-left: 10px;
+}
+#area_menu{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	font-weight: bold;
+}
+#area_menu a:link, #area_menu a:visited{
+	color: #F7F6F3;
+	font-size: 15px;
+	padding: 10px;
+}
+#area_menu a:hover{
+	background-color: #E4CFF7;
+	color: #552E8A;
+	font-size: 15px;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+}
+#voce_sabia, #depoimentos{
+	background-color: #FFD2C3;
+	border-radius: 10px;
+	width: 70%;
+	height: fit-content;
+	margin: 10px auto;
+	padding: 20px;
+	display: column;
+}
+#voce_sabia h2{
+	font-family: 'Lobster', cursive;
+	color: #A653C2;
+	font-size: 50px;
+}
+#voce_sabia a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #A653C2;
+}
+#voce_sabia a:hover{
+	font-size: 20px;
+	font-weight: bold;
+	color: #A653C2;
+	text-decoration: underline;
+}
+#area_conteudo2{
+	text-align: center;
+	margin: auto 15px;
+}
+#dicas{
+	margin: 20px auto;
+	width: 1000px;
+	padding: 20px;
+	font-size: 20px;
+	text-align: justify;
+	background-color: #FFD2C3;
+	border-radius: 10px;
+}
+#area_pesquisa p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+#depoimentos h2{
+	font-family: 'Lobster', cursive;
+	color: #A653C2;
+	font-size: 35px;
+
+}
+.transtornos{
+	margin: 20px auto;
+	width: 1000px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: justify;
+	background-color: #FFD2C3;
+	border-radius: 10px;
+	display: block;
+	align-items: center;
+}
+.transtornos h2{
+	font-family: 'Lobster', cursive;
+	color: #552E8A;
+	text-align: center;
+}
+.transtornos img{
+	width: 19%;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;
+}
+.banner{
+	margin: 20px auto;
+	width: 960px;
+ 	height: 540px; 
+	animation: slides 30s infinite;
+	background-size: cover;
+	border-radius: 10px; 
+}
+.lista{
+	padding: 50px;
+}
+.lista img{
+	margin: 0px auto;
+	width: 500px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.video{
+	text-align: center;
+}
+.graficos{
+	text-align: center;
+	margin: 20px;
+}
+.graficos img{
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+	margin: 10px;
+}
+.rodape{
+	background-color: #A653C2;
+	padding: 10px;
+	color: #F7F6F3;
+	text-align: center;
+	margin-top: 20px;
+	clear: both;
+}
+
+@keyframes slides{
+
+0%, 30%{
+	background-image: url(../imagens/frase1.png);
+	repeat: no-repeat;
+}
+
+35%, 65%{ 
+	background-image: url(../imagens/frase2.png);
+	repeat: no-repeat;
+}
+
+70%, 100%{ 
+	background-image: url(../imagens/frase3.png);
+ 	repeat: no-repeat;
+}}
